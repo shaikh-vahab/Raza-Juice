@@ -1,17 +1,9 @@
 nav {
     display: flex;
-    max-width: 1500px;
-    min-width: 100%;
-    margin-bottom: 25px;
-    justify-content: space-between;
-    position: fixed;
-    /* z-index: 9999; */
-    align-items: center;
-    background: #f4e9ea;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #faf6f7, #efeded);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #efecec, #e6c2c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border: none;
-    
+    position: fixed; 
+    z-index: 9999;
+    background-color: #fff; 
+
 
 }
 
@@ -22,19 +14,11 @@ nav::after {
     bottom: 0;
     left: 0;
     width: 100%;
-    /* background: rgb(201, 201, 201); */
     z-index: 1;
 }
 
 nav .logo {
-    /* flex: 1; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* font-size: 2rem;  */
-
-
     margin: -50px 50px -60px 70px;
-    /* width: auto; */
 
 }
 

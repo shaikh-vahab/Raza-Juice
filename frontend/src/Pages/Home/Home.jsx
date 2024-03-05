@@ -6,7 +6,7 @@ import Menu from '../../components/Menu'
 import Team from '../../components/Team'
 import Reservation from '../../components/Reservation'
 import Footer from '../../components/Footer'
-import Dryfruites from '../../components/WhoAreWe'
+import Dryfruites from '../../components/Dryfruits'
 import Navbar from '../../components/Navbar'
 
 const Home = () => {

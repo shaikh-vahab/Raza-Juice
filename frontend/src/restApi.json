@@ -1,160 +1,254 @@
 {
     "data": [
         {
-        "dishes": [
-            {
-                "id": 1,
-                "image": "./Pineapple.jpg",
-                "title": "Pineapple-Juice"
-               
-            },
-            {
-                "id": 2,
-                "image": "./Orange_juice_1.jpg",
-                "title": "Orange-Juice"
-              
-            },
-            {
-                "id": 3,
-                "image": "./Strawberry-juice.jpg",
-                "title": "Strawberry-Juice",
-                "category": "Breakfast"
-            },
-            {
-                "id": 4,
-                "image": "./Apple-juice.jpg",
-                "title": "Apple-Juice"
-              
-            },
-            {
-                "id": 5,
-                "image": "./Orange-juice.jpg",
-                "title": "Orange-Juice"
-             
-            },
-            {
-                "id": 6,
-                "image": "./Banana-juice.jpg",
-                "title": "Banana-Juice"
-             
-            },
-            {
-                "id": 7,
-                "image": "./Kiwi.jpg",
-                "title": "KIwi-Juice"
-              
-            },
-            {
-                "id": 8,
-                "image": "./Mango.jpg",
-                "title": "Mango-Juice"
-                
-            }
-        ],
-        "team": [
-            {
-                "id": 1,
-                "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
-                "designation": "Founder & Head Chef"
-            },
-            {
-                "id": 2,
-                "image": "./team_member_2.png",
-                "name": "WADE WARREN",
-                "designation": "Sous Chef"
-            },
-            {
-                "id": 3,
-                "image": "./team_member_3.png",
-                "name": "JHON DOE",
-                "designation": "Fast Food Chef"
-            },
-            {
-                "id": 4,
-                "image": "./team_member_4.png",
-                "name": "ALEX COAL",
-                "designation": "Senior Chef"
-            }
-        ],
-        "Dryfruits": [
-            {
-                "id": 1,
-                "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
-                "weight": 4,
-                "title": "Badam",
-                "Rs":350
-            },
-            {
-                "id": 2,
-                "image": "https://i.imgur.com/1twoaDy.jpeg",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "weight": 4.5,
-                "title": "Esther Howard",
-                "Rs":350
-
-            },
-            {
-                "id": 3,
-                "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "weight": 5,
-                "title": "Guy Hawkins",
-                "Rs":350
-
-            }
-        ],
-        "who_we_are": [
-            {
-                "id": 1,
-                "number": "14",
-                "title": "Restaurants"
-            },
-            {
-                "id": 2,
-                "number": "20",
-                "title": "Chef In Kitchen"
-            },
-            {
-                "id": 3,
-                "number": "08",
-                "title": "Years Of Experience"
-            },
-            {
-                "id": 4,
-                "number": "200",
-                "title": "Food Dishes"
-            }
-        ],
-        "navbarLinks": [
-            {
-                "id": 1,
-                "title": "HOME",
-                "link": "heroSection"
-            },
-            {
-                "id": 2,
-                "title": "ABOUT US",
-                "link": "about"
-            },
-            {
-                "id": 3,
-                "title": "SERVICES",
-                "link": "qualities"
-            },
-            {
-                "id": 4,
-                "title": "TEAM",
-                "link": "team"
-            },
-            {
-                "id": 5,
-                "title": "RESERVATION",
-                "link": "reservation"
-            }
-        ]
-    
-    } 
+            "dishes": [
+                {
+                    "id": 1,
+                    "image": "./Pineapple.jpg",
+                    "title": "Pineapple-Juice"
+                },
+                {
+                    "id": 2,
+                    "image": "./Orange_juice_1.jpg",
+                    "title": "Orange-Juice"
+                },
+                {
+                    "id": 3,
+                    "image": "./Strawberry-juice.jpg",
+                    "title": "Strawberry-Juice",
+                    "category": "Breakfast"
+                },
+                {
+                    "id": 4,
+                    "image": "./Apple-juice.jpg",
+                    "title": "Apple-Juice"
+                },
+                {
+                    "id": 5,
+                    "image": "./Orange-juice.jpg",
+                    "title": "Orange-Juice"
+                },
+                {
+                    "id": 6,
+                    "image": "./Banana-juice.jpg",
+                    "title": "Banana-Juice"
+                },
+                {
+                    "id": 7,
+                    "image": "./Kiwi.jpg",
+                    "title": "KIwi-Juice"
+                },
+                {
+                    "id": 8,
+                    "image": "./Mango.jpg",
+                    "title": "Mango-Juice"
+                }
+            ],
+            "team": [
+                {
+                    "id": 1,
+                    "image": "./team_member_1.png",
+                    "name": "JOHNATHAN TYLER",
+                    "designation": "Founder & Head Chef"
+                },
+                {
+                    "id": 2,
+                    "image": "./team_member_2.png",
+                    "name": "WADE WARREN",
+                    "designation": "Sous Chef"
+                },
+                {
+                    "id": 3,
+                    "image": "./team_member_3.png",
+                    "name": "JHON DOE",
+                    "designation": "Fast Food Chef"
+                },
+                {
+                    "id": 4,
+                    "image": "./team_member_4.png",
+                    "name": "ALEX COAL",
+                    "designation": "Senior Chef"
+                }
+            ],
+            "Dryfruits": [
+                {
+                    "id": 1,
+                    "image": "https://hips.hearstapps.com/hmg-prod/images/full-frame-shot-of-raw-almonds-royalty-free-image-683814187-1537885519.jpg?crop=0.66635xw:1xh;center,top&resize=640:*",
+                    "description": "Almond (Badam)",
+                    "weight": "500gm",
+                    "title": "Badam",
+                    "Rs": 300
+                },
+                {
+                    "id": 2,
+                    "image": "https://www.kiranaplace.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/cashewnuts-_kaju_-nuts.jpg",
+                    "description": "White Testy Kaju .",
+                    "weight": "500gm",
+                    "title": "Kaju",
+                    "Rs": 330
+                },
+                {
+                    "id": 3,
+                    "image": "https://4.imimg.com/data4/WP/CF/MY-6340336/dry-yellow-grapes-500x500-500x500.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Manuka",
+                    "Rs": 80
+                },
+                {
+                    "id": 4,
+                    "image": "https://rukminim2.flixcart.com/image/850/1000/kggviq80/nut-dry-fruit/y/t/f/600-dry-combo-cashew-almond-dryfig-pouch-manki-original-imafwpaapffbq3p3.jpeg?q=90&crop=false",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "500gm",
+                    "title": "Anjir",
+                    "Rs": 450
+                },
+                {
+                    "id": 5,
+                    "image": "https://nuttinaturals.in/ynekriwh/2021/07/Seedless.jpeg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Black Manuka",
+                    "Rs": 120
+                },
+                {
+                    "id": 6,
+                    "image": "https://m.media-amazon.com/images/I/51Zd7PerzeL.jpg",
+                    "description": "crispy Pista.",
+                    "weight": "250gm",
+                    "title": "Pista",
+                    "Rs": 270
+                },
+                {
+                    "id": 7,
+                    "image": "https://cdn.shopaccino.com/adfs/products/charoli-chironji-469851_m.jpg?v=499",
+                    "description": "Gold Charoli .",
+                    "weight": "50gm",
+                    "title": "Charoli",
+                    "Rs": 130
+                },
+                {
+                    "id": 8,
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/326387502/GD/VP/HE/9958924/natural-watermelon-seed.png",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "WaterMi.. Seed",
+                    "Rs": 80
+                },
+                {
+                    "id": 9,
+                    "image": "https://media.istockphoto.com/id/1395719842/photo/whole-and-peeled-walnuts-on-a-rustic-wooden-table-focus-on-the-walnut-kernels.jpg?s=612x612&w=0&k=20&c=RgxHriY7NcDkJgaF1v8Oazm_mtIUf4nZuOE0RoQupBI=",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Walnut (Akrot)",
+                    "Rs": 160
+                },
+                {
+                    "id": 10,
+                    "image": "https://t3.ftcdn.net/jpg/02/59/64/30/360_F_259643005_lgHlkNaK7adirPlj5EzJZJqMBe3QbxaD.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Fennel (Soaf)",
+                    "Rs": 120
+                },
+                {
+                    "id": 11,
+                    "image": "https://www.allrecipes.com/thmb/BYmRC_Nnqx2fCwYUixyKgpR40w4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-are-pine-nuts-GettyImages-1800734150-4x3-e1d10f4a5fe140cab3855dc75ffc6d9d.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Pine Nuts",
+                    "Rs": 80
+                },
+                {
+                    "id": 12,
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0OefEIJC2MtDp_0VrGaNUWhLeveT-iZV6A&usqp=CAU",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Fox (Makhana)",
+                    "Rs": 220
+                },
+                {
+                    "id": 13,
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/5/HR/NI/XQ/15723898/areca-nut.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "250gm",
+                    "title": "Supaari",
+                    "Rs": 120
+                },
+                {
+                    "id": 14,
+                    "image": "https://st5.depositphotos.com/63867448/65980/i/450/depositphotos_659805346-stock-photo-powdered-sugar-wooden-spoon-powdered.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "1 kg",
+                    "title": "Sugar Powder",
+                    "Rs": 80
+                },
+                {
+                    "id": 15,
+                    "image": "https://5.imimg.com/data5/ANDROID/Default/2021/9/CW/QV/NA/79380348/product-jpeg-500x500.jpg",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "50gm",
+                    "title": "Khas Khas",
+                    "Rs": 80
+                },
+                {
+                    "id": 16,
+                    "image": "https://media.istockphoto.com/id/540601628/photo/raw-organic-red-saffron-spice.jpg?s=612x612&w=0&k=20&c=Ana18gJZs154u3ATgDMj_hmRw6kwLnPAiNtOtqL5Sbo=",
+                    "description": "Testy Brown Grapss .",
+                    "weight": "50gm",
+                    "title": "Kesar",
+                    "Rs": 200
+                }
+            ],
+            "who_we_are": [
+                {
+                    "id": 1,
+                    "number": "14",
+                    "title": "Restaurants"
+                },
+                {
+                    "id": 2,
+                    "number": "20",
+                    "title": "Chef In Kitchen"
+                },
+                {
+                    "id": 3,
+                    "number": "08",
+                    "title": "Years Of Experience"
+                },
+                {
+                    "id": 4,
+                    "number": "200",
+                    "title": "Food Dishes"
+                }
+            ],
+            "navbarLinks": [
+                {
+                    "id": 1,
+                    "title": "HOME",
+                    "link": "heroSection"
+                },
+                {
+                    "id": 2,
+                    "title": "ABOUT US",
+                    "link": "about"
+                },
+                {
+                    "id": 3,
+                    "title": "SERVICES",
+                    "link": "qualities"
+                },
+                {
+                    "id": 4,
+                    "title": "TEAM",
+                    "link": "team"
+                },
+                {
+                    "id": 5,
+                    "title": "RESERVATION",
+                    "link": "reservation"
+                }
+            ]
+        }
     ]
 }
