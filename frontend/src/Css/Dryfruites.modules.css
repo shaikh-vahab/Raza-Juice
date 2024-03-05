@@ -1,0 +1,48 @@
+/* THis Is dryfruite card css */
+
+
+.card-dryfruite {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  /* justify-content: center; */
+  border-radius: 8px;
+  margin-left: 10px;
+
+
+}
+
+.card-dryfruite h2 {
+  padding: 5px;
+}
+
+.card-dryfruite .para {
+  text-align: center;
+  padding:  0px 0px;
+
+}
+
+.card-dryfruite .byu-now{
+ margin-top: 10px;
+height: 30px;
+width: 150px;
+background-color: rgb(50, 45, 45);
+border: none;
+border-radius:  3px;
+color: aliceblue;
+margin-bottom: 10px;
+
+}
+
+
+.card-dryfruite:hover{
+  box-shadow: 10px  50px  18px rgba(0,0,0,0.1);
+}
+
+
+.main-Dry-card{
+  display: flex;
+}
