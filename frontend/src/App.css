@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 
 * {
   /* font-family: "Oswald", sans-serif; */
+  font-family: "Anta", sans-serif;
+
   box-sizing: border-box;
  
   margin: 0;
@@ -81,6 +84,15 @@
   text-decoration: none;
   font-size: 15px;
   color: #111;
+}
+
+.about .container .banner button{
+  width: 200px;
+  height: 30px;
+  background-color: #111;
+  border: none;
+  border-radius: 10px;
+  color: white;
 }
 
 .about .container .banner a span {
@@ -677,7 +689,7 @@ footer .container .banner .right {
   width: 400px;
   background: #fff;
   height: 100%;
-  padding: 20px;
+  padding: 10px;
   box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
   -webkit-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
   -moz-box-shadow: -1px 0px 37px 0px rgba(152, 87, 191, 0.75);
@@ -685,8 +697,9 @@ footer .container .banner .right {
 
 .reservation .container .banner .reservation_form_box form div {
   display: flex;
+  flex-direction: column;
   gap: 25px;
-  margin-bottom: 20px;
+  margin-bottom:20px;
 }
 
 .reservation .container .banner .reservation_form_box form div input {
@@ -697,6 +710,7 @@ footer .container .banner .right {
   border: none;
   border-bottom: 1px solid #333;
   background: transparent;
+  display: flex;
 }
 
 .reservation .container .banner .reservation_form_box form input[type="email"] {
@@ -845,40 +859,4 @@ footer .container .banner .right {
 /**********************************************************************************************************************/
 
 /* ********************Auto play Carousel********************************** */
-
-.carousel {
-  display: flex;
-  overflow: hidden;
-  width: 1200px;
-  height: 400px;
-  position: relative;
-
-}
-
-.carousel img {
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.5s;
-margin-left: 10px;
-}
-
-.carousel img:hover {
-  opacity: 0.5;
-}
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  20% { transform: translateX(0); }
-  25% { transform: translateX(-100%); }
-  45% { transform: translateX(-100%); }
-  50% { transform: translateX(-200%); }
-  70% { transform: translateX(-200%); }
-  75% { transform: translateX(-300%); }
-  95% { transform: translateX(-300%); }
-  100% { transform: translateX(0); }
-}
-
-.carousel img {
-  animation: slide 5s infinite;
-}
 

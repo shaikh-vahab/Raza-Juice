@@ -1,8 +1,8 @@
 import React from 'react'
-import { data } from '../restApi.json'
-import '../Css/Dryfruites.modules.css'
+import { data } from '../../restApi.json'
+import '../../Css/Dryfruites.modules.css'
 
-const Dryfruites = () => {
+const Dryfruits = () => {
   return (
     <>
     <hr />
@@ -31,4 +31,4 @@ const Dryfruites = () => {
 
 
 
-export default Dryfruites
+export default Dryfruits

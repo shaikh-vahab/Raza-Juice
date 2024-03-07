@@ -1,31 +1,40 @@
 nav {
     display: flex;
-    position: fixed; 
+    position: fixed;
+    height: 10px;
     z-index: 9999;
-    background-color: #fff; 
+    background-color: #ffffff;
 
 
 }
 
-nav::after {
-    content: "";
-    position: absolute;
-    height: 0.6px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-}
+
 
 nav .logo {
-    margin: -50px 50px -60px 70px;
+    margin: -46px 50px -60px 70px;
+
 
 }
 
 .Home-ul {
     display: flex;
+    align-items: center;
+    margin-top: 10px;
     gap: 40px;
     list-style: none;
+    text-decoration: none;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.Home-ul ul li {
+    text-decoration: none;
+    list-style: none;
+
 }
 
 nav .navLinks {
@@ -43,9 +52,9 @@ nav .navLinks .Home-ul {
 
     text-decoration: none;
     color: #555;
-    font-size: 22px;
-    font-weight: 350;
-    letter-spacing: 1.4px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
     cursor: pointer;
 
 }
@@ -76,9 +85,7 @@ nav .menuBtn:hover {
 
 
 
-nav svg {
-    font-size: 1.75rem;
-}
+
 
 @media (max-width: 1520px) {
     nav {

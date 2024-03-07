@@ -13,7 +13,8 @@ const Reservation = () => {
         <div className="banner">
           <div className="reservation_form_box">
             <h1>MAKE A RESERVATION</h1>
-            <p>For Further Questions, Please Call</p>
+            <p> Big Order Please Call Me <b>(+91) 9175237382</b> </p>  
+           
             <form>
               <div>
                 <input
@@ -21,7 +22,7 @@ const Reservation = () => {
                   placeholder="First Name"
                   // value={firstName}
                   // onChange={(e) => setFirstName(e.target.value)}
-                />
+                /> 
                 <input
                   type="text"
                   placeholder="Last Name"
@@ -54,6 +55,12 @@ const Reservation = () => {
                 <input
                   type="number"
                   placeholder="Phone"
+                  // value={phone}
+                  // onChange={(e) => setPhone(e.target.value)}
+                />
+                <input
+                  type="Text"
+                  placeholder="Item Name"
                   // value={phone}
                   // onChange={(e) => setPhone(e.target.value)}
                 />
