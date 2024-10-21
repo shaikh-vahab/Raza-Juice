@@ -26,47 +26,35 @@ function MakeReservation() {
 
     return (
         <section className="reservation" id="reservation">
-            <div className="container reserCon">
+            <div className="container">
+                <div className="banner">
+                    <img className="Img-glass" src="/glass.png" alt="" width={'50px'} />
+                </div>
+                <div className="banner">
+                    <div className="reservation_form_box">
+                        <h1>MAKE AN ORDER</h1>
+                        <p>Big Order? Send us on WhatsApp <b>(+91) 9175237382</b></p>
 
-                <div class="row">
-                    <div class="col-sm-5 col-md-6">
-                        <div className="banner">
-                            <img className="Img-glass" src="/glass.png" alt="" width={'50px'} />
-                        </div>
-                    </div>
-                    <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-                        <div className="banner">
-                            <div className="reservation_form_box">
-                                <h1>MAKE AN ORDER</h1>
-                                <p>Big Order? Send us on WhatsApp <b>(+91) 9175237382</b></p>
-
-                                <form onSubmit={submits}>
-                                    <div>
-                                        <input type="text" name="firstName" placeholder="First Name" required />
-                                        <input type="text" name="lastName" placeholder="Last Name" />
-                                    </div>
-                                    <div>
-                                        <input type="date" name="date" placeholder="Date" required />
-                                        <input type="time" name="time" placeholder="Time" required />
-                                    </div>
-                                    <div>
-                                        <input type="email" name="email" placeholder="Email" className="email_tag" required />
-                                        <input type="number" name="phoneNumber" placeholder="Phone Number" required />
-                                    </div>
-                                    <div>
-                                        <input type="text" name="ItemName" placeholder="Item Name" required />
-                                    </div>
-                                    {/* <button type="submit">Get Order NOW <span></span></button> */}
-                                    <button type="button" class="btn btn-success">Success</button>
-
-                                </form>
+                        <form onSubmit={submits}>
+                            <div>
+                                <input type="text" name="firstName" placeholder="First Name" required />
+                                <input type="text" name="lastName" placeholder="Last Name" />
                             </div>
-                        </div>
+                            <div>
+                                <input type="date" name="date" placeholder="Date" required />
+                                <input type="time" name="time" placeholder="Time" required />
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Email" className="email_tag" required />
+                                <input type="number" name="phoneNumber" placeholder="Phone Number" required />
+                            </div>
+                            <div>
+                                <input type="text" name="ItemName" placeholder="Item Name" required />
+                            </div>
+                            <button type="submit">Get Order NOW <span></span></button>
+                        </form>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
     );
