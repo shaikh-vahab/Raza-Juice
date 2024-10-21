@@ -1,0 +1,45 @@
+/**********************************************************************************************************************/
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+.mainimg {
+  background-image: url('https://t4.ftcdn.net/jpg/03/09/02/19/360_F_309021984_5QaTW7s7dEnzoBcHj8hesNXI6lXcjWPe.jpg');
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 60px;
+
+}
+
+.OrderMenu {
+  padding: 8px 20px;
+  color: black;
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 480px 500px;
+}
+
+.OrderMenu:hover {
+  color: #fff;
+  background: #222;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:600px) {
+  .mainimg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyDTQyt3xguDxza7ln2DrSEq7cNXXZOOf9V6TutEQ0obC6BkNLU5QABclEm6qAVECs-g&usqp=CAU");
+  }
+
+  .OrderMenu {
+    margin: 480px 50px;
+    width: 300px;
+   background-color: #fff;
+
+  }
+}

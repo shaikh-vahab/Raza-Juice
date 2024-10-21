@@ -1,0 +1,23 @@
+{
+    "team": [
+        {
+            "id": 1,
+            "image": "./team_member_1.png",
+            "name": "Salim Bagwan",
+            "designation": "Shop Owner"
+        },
+        {
+            "id": 2,
+            "image": "./team_member_2.png",
+            "name": "Sidik Bagwan",
+            "designation": "Shop Second Owner"
+        },
+        {
+            "id": 3,
+            "image": "./team_member_3.png",
+            "name": "Aadil Bagwan",
+            "designation": "Fast Food Cheif"
+        }
+    ]
+  
+}
