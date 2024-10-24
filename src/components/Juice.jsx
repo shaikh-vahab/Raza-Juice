@@ -23,7 +23,15 @@ const DisplayJuices = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading juices...</div>;
+    return <div class="loader-container">
+    <div class="loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div >Loading....</div>
+    </div>
+</div>;
   }
 
   if (error) {

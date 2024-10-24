@@ -30,7 +30,7 @@
   align-items: center;
   width: 290px;
   height: 430px;
-  border: 1px solid black;
+  border: 1px solid rgb(243, 222, 222);
   border-radius: 30px;
   /* background-color: rgb(203, 206, 187); */
 }
@@ -38,6 +38,57 @@
 .imgsize {
   margin-top: 20px;
 }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f2f5; /* Background color */
+}
+
+.loader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 60px; /* Height of the loader */
+}
+
+.dot {
+  width: 15px; /* Width of each dot */
+  height: 15px; /* Height of each dot */
+  margin: 0 5px; /* Space between dots */
+  background-color: #61dafb; /* Dot color */
+  border-radius: 50%; /* Make dots circular */
+  animation: bounce 0.6s infinite alternate; /* Animation properties */
+}
+
+.dot:nth-child(1) {
+  animation-delay: 0s; /* Delay for the first dot */
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.1s; /* Delay for the second dot */
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.2s; /* Delay for the third dot */
+}
+
+.dot:nth-child(4) {
+  animation-delay: 0.3s; /* Delay for the fourth dot */
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0); /* Initial position */
+  }
+  100% {
+      transform: translateY(-30px); /* Position when animated */
+  }
+}
+
+
 
 @media only screen and (max-width:600px) {
   .container h2 {
